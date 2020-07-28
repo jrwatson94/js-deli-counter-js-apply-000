@@ -4,7 +4,7 @@
 
 // Take A Number function: generates welcome message and returns person's position in line
 
-function takeANumber (line, name){
+function takeANumber (line,name){
   //add name to line
   line.push(name);
   
@@ -33,8 +33,9 @@ function nowServing (line){
   //remove served customer from line
   else {
     line.shift();
+    return nextUp;
   }
-  return nextUp;
+  
 }
 
 
