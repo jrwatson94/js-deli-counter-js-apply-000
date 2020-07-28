@@ -4,6 +4,23 @@
 
 // Take A Number function: generates welcome message and returns person's position in line
 
+
+var num = 0;
+
+function takeANumberMachine() {
+  return num++;
+}
+
+
+
+
+
+
+
+
+
+
+
 function takeANumber (line,name){
   //add name to line
   line.push(name);
